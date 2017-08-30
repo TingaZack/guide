@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "269906586778",
+    "firebase_url": "https://satvguide.firebaseio.com",
+    "project_id": "satvguide",
+    "storage_bucket": "satvguide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269906586778:android:936eb9f5fb1c4d4e",
+        "android_client_info": {
+          "package_name": "com.zack.tinga.satvguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269906586778-ap18as6ev14svohi0be2fmvvs2m1drj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zack.tinga.satvguide",
+            "certificate_hash": "549767a0088de42b28275845846ca89db7e9a09f"
+          }
+        },
+        {
+          "client_id": "269906586778-26gnv6530d9dk6fpd5a5leahmd2l29d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLb4emBHH8wgZklIgv8EON8cHB9U16ppY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269906586778-26gnv6530d9dk6fpd5a5leahmd2l29d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

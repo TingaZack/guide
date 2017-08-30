@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SATV Guide</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_sabc1">SABC 1</string>
+    <string name="title_sabc2">SABC 2</string>
+    <string name="title_sabc3">SABC 3</string>
+    <string name="title_etv">e</string>
+
+    <string name="under_line"><u>underline</u>.</string>
+
+</resources>

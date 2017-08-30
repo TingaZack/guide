@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/untng"
+    android:minHeight="600dp"
+    android:minWidth="500dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/imgv_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/game_of_thrones_title_card" />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/card"
+        android:layout_margin="8dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/textwrap"
+        android:orientation="vertical">
+
+        <com.zack.tinga.satvguide.typo.BoldRowTextView
+            android:id="@+id/textViewShowName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Generations (the legacy)"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <com.zack.tinga.satvguide.typo.LightRowTextview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Listen to 702 on live streaming
+If you are having problems listening to the live stream using the built in player at the top of the page, you can use the player below.
+
+The stream uses about 28MB per hour, you can determine the data cost based on what rate you pay per MB or for a bundle.If neither the player at the top of the page, nor the player above work for you, please use this stand alone stream
+player." />
+
+    </LinearLayout>
+
+</RelativeLayout>

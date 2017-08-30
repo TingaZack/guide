@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.zack.tinga.satvguide.MainActivity">
+
+    <EditText
+        android:id="@+id/textview_show_name"
+        android:hint="name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/textview_show_time"
+        android:hint="time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonSelect"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"/>
+
+    <VideoView
+        android:id="@+id/videoViewDis"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:text="done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

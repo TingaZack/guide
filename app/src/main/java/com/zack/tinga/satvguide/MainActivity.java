@@ -75,12 +75,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         selectImage();
-
-        MediaMetadataRetriever retriever = new MediaMetadataRetriever();
-        retriever.setDataSource(File.getPath()); // Enter Full File Path Here
-        String time = retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION);
-        long timeInmillisec = Long.parseLong(time); // You will get time in milliseconds
-
     }
 
     @Override
